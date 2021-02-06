@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DesafioFirebase</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="descricao">descricao</string>
+    <string name="search_games">search_games</string>
+</resources>

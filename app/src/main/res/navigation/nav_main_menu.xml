@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main_menu"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.digitalhouse.desafiofirebase.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_gameRegisterFragment"
+            app:destination="@+id/gameRegisterFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_cardDetailFragment"
+            app:destination="@id/cardDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameRegisterFragment"
+        android:name="com.digitalhouse.desafiofirebase.fragments.GameRegisterFragment"
+        android:label="fragment_game_register"
+        tools:layout="@layout/fragment_game_register" >
+        <action
+            android:id="@+id/action_gameRegisterFragment_to_cardDetailFragment"
+            app:destination="@id/cardDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cardDetailFragment"
+        android:name="com.digitalhouse.desafiofirebase.fragments.CardDetailFragment"
+        android:label="fragment_card_detail"
+        tools:layout="@layout/fragment_card_detail" >
+        <action
+            android:id="@+id/action_cardDetailFragment_to_gameRegisterFragment"
+            app:destination="@id/gameRegisterFragment" />
+        <action
+            android:id="@+id/action_cardDetailFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>

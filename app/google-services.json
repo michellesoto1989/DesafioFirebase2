@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "974893507612",
+    "firebase_url": "https://desafio-firebase-6cb91-default-rtdb.firebaseio.com",
+    "project_id": "desafio-firebase-6cb91",
+    "storage_bucket": "desafio-firebase-6cb91.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974893507612:android:26c79906daebe850e62bd9",
+        "android_client_info": {
+          "package_name": "com.digitalhouse.desafiofirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974893507612-r6eonh42r9i8q1oub5hpbh3s7jukdjph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.digitalhouse.desafiofirebase",
+            "certificate_hash": "86425699b1c214d951e08962ed51a35047392178"
+          }
+        },
+        {
+          "client_id": "974893507612-n94qvurrrpg2jib3hgtu5kh51c528q7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE2rb71zPrUlavium1FNj01p8BRGxUPAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974893507612-n94qvurrrpg2jib3hgtu5kh51c528q7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
